@@ -200,6 +200,9 @@ a{
     line-height: 28px;
     text-align: justify;
 }
+.key_client{
+    margin-top: 100px;
+}
 @media screen and (max-width:767px){
     .menu_border{
         width: 30%;
@@ -246,6 +249,10 @@ a{
         margin-left:34px
     }
     .client{
+        font-size: 2.2rem;
+    }
+    .key_client{
+        margin-top: 2rem;
         font-size: 2.2rem;
     }
 }
