@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed&family=Roboto+Slab&display=swap');
 :root{
-    --common-color:#284387;
+    --common-color:
+    #f9690e;
     --mobile_head_size:2rem;
     --mobile_text_size:1.25rem;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
 
+a{
+    text-decoration: none;
+}
 .navbar-toggler {
     border: 0 !important;
 }
@@ -75,7 +85,7 @@
     width: 100%;
     height: 3px;
     position: absolute;
-    background-color: #284387;
+    background-color: var(--common-color);
     right: 0;
     
     transform: scale(0,1);
@@ -131,6 +141,42 @@
     margin-top: 2rem;
     line-height: 30px;
 }
+
+
+/* services */
+.our_services{
+    margin-top: 22rem;
+    text-align: center;
+}
+.services_p{
+    text-align: center;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    font-size: 1rem;
+    line-height: 28px;
+}
+.services_part{
+    margin-top: 4rem;
+}
+
+.services_part_text{
+    margin-top: 220px;
+    margin-left: 2rem;
+}
+.services_part_header{
+    color: var(--common-color);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.services_part_p{
+    word-spacing: 5px;
+}
+
+
+.services_part_web{
+    margin-top: 220px;
+    margin-right: 2rem;
+}
 @media screen and (max-width:767px){
     .menu_border{
         width: 30%;
@@ -151,6 +197,27 @@
         margin-top: 15px;
         
     }
+    .our_services{
+        margin-top: 7rem !important;
+    }
+    .services_p{
+        text-align: left;
+        margin-left: 0;
+        margin-right: .675rem;
+        text-align: justify;
+        font-size: 16px;
+    }
+    .services_part_text{
+        margin-top: 2rem;
+    }
+    .services_part_web_phn{
+        margin-top: -170px;
+        margin-left:34px
+    }
+    .services_part_web_phn_text{
+        margin-left:34px
+    }
+
 }
 
 
@@ -178,5 +245,24 @@
     .banner_img{
         margin-top: 2rem;
     }
-
+    .our_services{
+        margin-top: 10rem !important;
+    }
+    .services_p{
+        text-align: left;
+        margin-left: 0;
+        margin-right: .675rem;
+        text-align: justify;
+        font-size: 16px;
+    }
+    .services_part_tab{
+        margin-top: 70px;
+        text-align: justify;
+    }
+    .services_part_tab_header{
+        font-size: 22px;
+    }
+    .services_part_tab_text{
+        font-size: 14px;
+    }
 }
