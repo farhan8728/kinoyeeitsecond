@@ -206,7 +206,7 @@ a{
 }
 .contact_us{
     background-color: #f8f9fa;
-    height: 60vh;
+    padding-bottom: 40px;
     
     margin-top: 8rem;
     position: relative;
@@ -286,7 +286,7 @@ a{
         font-size: 2.2rem;
     }
     .contact_us{
-        height: 87vh;
+        height: 85vh;
     }
     .want{
     
@@ -360,5 +360,27 @@ a{
     }
     .contact_form{
         padding-top: 3rem;
+    }
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1199px){
+    .want{
+        padding-top: 150px;
+    }
+    .want_text{
+        font-size: 55px;
+    }
+    .contact_form{
+        padding-top: 30px;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1920px){
+    .contact_form{
+        padding-top: 30px;
+    }
+    .want{
+        padding-top: 110px;
     }
 }
