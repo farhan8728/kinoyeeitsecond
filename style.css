@@ -428,17 +428,19 @@ a{
         font-size: 2.2rem;
     }
     .contact_us{
-        height: 66vh;
+        height: 88vh;
+        padding-bottom: 30px;
     }
     .want{
     
-        padding-top: 120px;
+        padding-top: 72px;
     }
     .want_text{
+
         font-size: 56px;
     }
     .contact_form{
-        padding-top: 3rem;
+        padding-top: 30px;
     }
     .about_us_p{
         margin-top: 0;
