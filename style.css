@@ -289,6 +289,21 @@ a{
     margin-left: 55px;
     
 }
+.contact_us_icon{
+    font-size: 32px;
+}
+.call {
+    margin-top: 14px;
+    margin-left: 12px;
+}
+.contact_number {
+    margin-left: 43px;
+    font-size: 18px;
+}
+.second_contact{
+    margin-top: 40px;
+    
+}
 @media screen and (max-width:767px){
     .menu_border{
         width: 30%;
