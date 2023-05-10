@@ -262,6 +262,33 @@ a{
 .apply{
     margin-top: 0px;
 }
+
+.about_section{
+    margin-top: 3rem;
+    
+}
+.about_us_header{
+    font-size: 70px;
+    text-align: center;
+    border-right: 2px solid #ad4b0e;
+}
+.about_us_p{
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    text-align: justify;
+}
+.benefits{
+    margin-top: 150px;
+}
+.about_us_icon{
+    font-size: 3rem;
+}
+.about_us_team{
+    margin-left: 55px;
+    
+}
 @media screen and (max-width:767px){
     .menu_border{
         width: 30%;
@@ -328,6 +355,13 @@ a{
     .title{
         margin-top: -36px;
     }
+    .about_us_header{
+        font-size: 48px;
+        border-right: none;
+    }
+    .benefits{
+        margin-top: 0;
+    }
 }
 
 
@@ -391,6 +425,14 @@ a{
     .contact_form{
         padding-top: 3rem;
     }
+    .about_us_p{
+        margin-top: 0;
+        font-size: 16px;
+        
+    }
+    .about_us_header{
+        margin-top: 10px;
+    }
 }
 
 
@@ -404,6 +446,11 @@ a{
     .contact_form{
         padding-top: 30px;
     }
+    .about_us_p{
+        margin-top: 20px;
+        font-size: 16px;
+        
+    }
 }
 
 @media screen and (min-width:1200px) and (max-width:1920px){
@@ -412,5 +459,8 @@ a{
     }
     .want{
         padding-top: 110px;
+    }
+    .title{
+        margin-top: -40px;
     }
 }
