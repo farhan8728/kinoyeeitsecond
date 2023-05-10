@@ -233,6 +233,35 @@ a{
 .contact_form{
     padding-top: 5rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.job_title{
+    color: #000;
+}
+.job_title:hover{
+    color: var(--common-color);
+}
+.title_skill{
+    color: #283593;
+}
+.apply{
+    margin-top: 0px;
+}
 @media screen and (max-width:767px){
     .menu_border{
         width: 30%;
@@ -295,6 +324,9 @@ a{
     }
     .contact_form{
         padding-top: 3rem;
+    }
+    .title{
+        margin-top: -36px;
     }
 }
 
